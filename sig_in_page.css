@@ -1,0 +1,76 @@
+/* @font-face {
+    font-family: Cormorant-Italic;
+    src: url('./Cormorant_Garamond/CormorantGaramond-Italic.ttf');
+} */
+
+.main_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20PX;
+    margin: 100px;
+}
+
+.main_block form{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(42, 43, 43);
+}
+.main_block form h2{
+    text-align: center;
+    
+}
+.main_block form input{
+    margin-top: 10px;
+    background-color:rgb(29, 27, 27);
+    border: 1px solid  rgb(71, 70, 70);
+    font-size: 15px;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    width: 300px;
+    padding-left: 20px;
+    margin-block: 15px;
+    margin-bottom: 30px;
+}
+.main_block form label{
+    font-family: Cormorant-Regular;
+    font-size: 1.2rem;
+
+}
+.main_block span{
+    font-family:Raleway-Regular;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.main_block form button{
+    margin-top: 10px;
+    border: 1px solid  rgb(71, 70, 70);
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+    width: 300px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgb(39, 131, 39);
+}
+
+.need_learnJS{
+    border: 0.5px solid rgb(71, 70, 70);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+}
+.need_learnJS span{
+    font-size: 1rem;
+}
+
+.need_learnJS a{
+    font-size: 1rem;
+    color: rgba(251, 255, 5, 0.541);
+}
