@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./index.css">
     <script src="https://kit.fontawesome.com/b48549a02e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="commons.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ace.js"></script>
     <title>Learn JS</title>
 </head>
 
