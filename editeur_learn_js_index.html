@@ -6,25 +6,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espace de codage</title>
+    <link rel="stylesheet" href="./commons.css">
     <link rel="stylesheet" href="editeur_learn_js.css">
 </head>
 
 <body>
-    <div class="header">Learn JS Editor Code</div>
-    <div class="control-panel">
-        Select Langage:
-        &nbsp;&nbsp;
-        <select name="" id="languages" class="languages" onchange="changeLange()">
-            <option value="node">node</option>
-        </select>
-    </div>
-    <div class="editor" id="editor">
 
-    </div>
-    <div class="button-container">
-        <button class="btn" onclick="execute()">Run</button>
-    </div>
-    <div class="output"></div>
+    <header>
+    
+        <div class="block_header">
+            <div class="block_header_left">
+                <a href="#">
+                    <span>LEARN JS</span>
+                </a>
+                <nav>
+                    <ul>
+                        <div class="edit_code">
+                            <a href="./editeur_learn_js_index.html">
+                                <li>Editeur de code</li>
+                            </a>
+                            <!-- <img width="35px" height="30px" opacity="0.7" src="./javascript-1.svg" alt=""> -->
+                        </div>
+    
+                        <a href="./exercices.php">
+                            <li>Exercices</li>
+                        </a>
+                        <a href="#">
+                            <li>Games</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="block_header_right">
+                <form action="#" method="post">
+                    <input class="search_js_input" type="text" placeholder="Search Learn JS">
+                    <button class="search_js_button">SEARCH</button>
+                </form>
+                <div>
+                    <ul>
+                        <li><a href="sig_in_page.php">Sign in</a></li>
+                        <li><a href="#"><a href="#">Sign Up</a></a></li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+            <div class="header">Learn JS Editor Code</div>
+            <div class="control-panel">
+                <div>
+                    Select Langage:
+                    &nbsp;&nbsp;
+                    <select name="" id="languages" class="languages" onchange="changeLange()">
+                        <option value="node">javascript</option>
+                    </select>
+                </div>               
+                <div class="button-container">
+                    <!-- <span>Exécuter</span> -->
+                    <button class="btn" onclick="execute()">Exécuter</button>
+                </div>
+            </div>
+            <div class="editor_and_run">
+                <div class="editor" id="editor"></div>
+                <div class="output"></div>
+            </div>
+    </main>
+    <footer>
+        <footer>
+            <div class="block_footer">
+                <section class="footer">
+                    <article class="footer_top">
+                        <div class="slogan_learn_js">Learn JS</div>
+                        <div>
+                            <nav>
+                                <ul>
+                                    <li>Documentation JS</li>
+                                    <li>Learn editor</li>
+                                    <li>About US</li>
+                                    <li>Historique JS</li>
+                                    <li>JS trends</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div>
+                            <nav>
+                                <ul>
+                                    <li>JS Forum</li>
+                                    <li>Contact</li>
+                                    <li>Feedbacks Highfive</li>
+                                    <li>Sign In</li>
+                                    <li>Sign Up</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </article>
+        
+                </section>
+                <article class="footer_bottom">
+                    <div class="copyrigth"> &copy; 2022 Learn JS, Inc </div>
+                    <div class="all_svg">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-youtube"></i>
+        
+                    </div>
+                </article>
+            </div>
+        
+        
+        </footer>
+    </footer>
+    
+
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./lib/ace.js"></script>
     <script src="./lib/theme-monokai.js"></script>

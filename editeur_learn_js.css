@@ -1,20 +1,52 @@
-*{margin:0;}
-
-.header{
-    background: #57a958;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    padding: 4px;
-    font-family: sans-serif;
+@font-face {
+    font-family: Cormorant-Regular;
+    src: url('./Cormorant_Garamond/CormorantGaramond-Regular.ttf');
 }
 
-.control.panel{
-    background: lightgray;
+@font-face {
+    font-family: Cormorant-Italic;
+    src: url('./Cormorant_Garamond/CormorantGaramond-Italic.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('./Raleway/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Italic;
+    src: url('./Raleway/static/Raleway-Italic.ttf');
+}
+*{margin:0;}
+main{
+    margin-top: 50px;
+}
+.header{
+    background: transparent;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    font-family: Raleway-Italic,sans-serif;
+}
+
+.control-panel{
+    background: transparent;
+    color: white;
     text-align: right;
-    padding: 4px;
-    font-family: sans-serif;
+    padding: 7px;
+    font-family: Raleway-Italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.control-panel select{
+    background-color: transparent;
+    font-family: Raleway-Italic;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .languages{
@@ -22,20 +54,32 @@
     border: 1px solid gray;
 }
 
-#editor{
+.editor{
     height: 400px;
+    width: 100vw;
+    /* background-color: rgb(76, 80, 80); */
 }
 
 .button-container{
     text-align: right;
     padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor_and_run{
+    display: flex;
+    flex-direction: row;
 }
 
 .btn{
-    background: #57a958;
+    background: transparent;
     color: white;
+    height: 50px;
     padding: 8px;
-    border: 8;
+    border: 2px solid rgb(122, 120, 120);
+    border-radius: 5px;
 }
 
 .output{
@@ -44,4 +88,6 @@
     min-height: 100px;
     width: 99%;
     resize: none;
+    color: black;
+    background-color: rgb(247, 253, 252);
 }
