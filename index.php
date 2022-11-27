@@ -23,7 +23,7 @@
                 <nav>
                     <ul>
                         <div class="edit_code">
-                            <a href="./editeur_learn_js.php">
+                            <a href="./editeur_learn_js_index.html">
                                 <li>Editeur de code</li>
                             </a>
                             <!-- <img width="35px" height="30px" opacity="0.7" src="./javascript-1.svg" alt=""> -->
